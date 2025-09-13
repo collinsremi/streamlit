@@ -14,7 +14,7 @@ st.feature4 = st.sidebar.slider("Petal Width (cm)", 0.1, 2.5, 1.3)
 
 st.write(st.feature1, st.feature2, st.feature3, st.feature4)
 
-model = joblib.load(r"streamlit\practice codes\model.pkl")
+model = joblib.load(r"practice codes/model.pkl")
 
 dict_data = {
     0: "Setosa",
